@@ -1,14 +1,13 @@
-/* Basic reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global styles */
+
 body {
     font-family: 'Roboto', sans-serif;
-    color: #585957;
+    color: #222322;
     line-height: 1.6;
     background-color: #f4f4f4;
 }
@@ -18,9 +17,10 @@ body {
     margin: auto;
     overflow: hidden;
     
+    
 }
 
-/* Header styles */
+
 header {
     font-family: 'Courier New', Courier, monospace;
     background: #ecfaae;
@@ -55,7 +55,7 @@ header nav ul li a:hover {
     border-radius: 4px;
 }
 
-/* Section styles */
+
 section {
     padding: 2rem 0;
     text-align: center;
@@ -70,8 +70,9 @@ section {
     width: 30%;
     margin: 1%;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
+    padding: 10px;
     transition: transform 0.3s;
+    background-color: #f3dada;
 }
 
 #services .service:hover {
@@ -82,33 +83,28 @@ section {
     width: 350px;
     height: 250px;
 }
-
-#contact form {
-    display: flex;
-    flex-direction: column;
+.btn {
+    background-color: #007BFF; /* Primary color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding inside the button */
+    margin: 10px; /* Margin around the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
 }
-
-#contact input, #contact textarea {
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+.btn:hover {
+    background-color: #0056b3; /* Darker color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
-
-#contact button {
-    padding: 10px;
-    background: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s;
+.btn:active {
+    background-color: #004085; /* Even darker color on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Smaller shadow on click */
+    transform: translateY(2px); /* Slightly move button down on click */
 }
-
-#contact button:hover {
-    background: #575757;
-}
-
-/* Footer styles */
 footer {
     background: #333;
     color: #fff;
