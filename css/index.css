@@ -6,7 +6,7 @@
 
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
     color: #222322;
     line-height: 1.6;
     background-color: #f4f4f4;
@@ -16,14 +16,14 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    
+    border-radius: 5px;
     
 }
 
 
 header {
     font-family: 'Courier New', Courier, monospace;
-    background: #ecfaae;
+    background: #ebe1ea;
     color: #d14ea3;
     padding: 1rem 0;
     text-align: center;
@@ -73,6 +73,7 @@ section {
     padding: 10px;
     transition: transform 0.3s;
     background-color: #f3dada;
+    border-radius: 10px;
 }
 
 #services .service:hover {
@@ -84,26 +85,21 @@ section {
     height: 250px;
 }
 .btn {
-    background-color: #007BFF; /* Primary color */
-    color: white; /* Text color */
-    padding: 10px 20px; /* Padding inside the button */
-    margin: 10px; /* Margin around the button */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    font-weight: bold; /* Font weight */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    background-color: #007BFF; 
+    color: white; 
+    padding: 10px 20px;
+    margin: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .btn:hover {
-    background-color: #0056b3; /* Darker color on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
-}
-.btn:active {
-    background-color: #004085; /* Even darker color on click */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Smaller shadow on click */
-    transform: translateY(2px); /* Slightly move button down on click */
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
 }
 footer {
     background: #333;
