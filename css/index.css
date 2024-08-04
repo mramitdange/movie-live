@@ -8,20 +8,23 @@
 /* Global styles */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #333;
+    color: #585957;
     line-height: 1.6;
+    background-color: #f4f4f4;
 }
 
 .container {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    
 }
 
 /* Header styles */
 header {
-    background: #333;
-    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    background: #ecfaae;
+    color: #d14ea3;
     padding: 1rem 0;
     text-align: center;
 }
@@ -41,14 +44,14 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #fff;
+    color: #454242;
     text-decoration: none;
     padding: 5px 10px;
     transition: background 0.3s;
 }
 
 header nav ul li a:hover {
-    background: #575757;
+    background: #f48989;
     border-radius: 4px;
 }
 
@@ -66,7 +69,7 @@ section {
     display: inline-block;
     width: 30%;
     margin: 1%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     padding: 1rem;
     transition: transform 0.3s;
 }
@@ -76,7 +79,8 @@ section {
 }
 
 #services img {
-    width: 100%;
+    width: 350px;
+    height: 250px;
 }
 
 #contact form {
